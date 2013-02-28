@@ -26,6 +26,13 @@ import org.jboss.shrinkwrap.resolver.api.maven.MavenDependencyResolver;
 
 import com.vaadin.cdi.component.ComponentTools;
 import com.vaadin.cdi.component.JaasTools;
+import com.vaadin.cdi.internal.BeanStoreContainer;
+import com.vaadin.cdi.internal.CDIUIProvider;
+import com.vaadin.cdi.internal.ContextDeployer;
+import com.vaadin.cdi.internal.UIBeanStore;
+import com.vaadin.cdi.internal.UIScopedContext;
+import com.vaadin.cdi.internal.VaadinCDIServlet;
+import com.vaadin.cdi.internal.VaadinExtension;
 
 /**
  * 
